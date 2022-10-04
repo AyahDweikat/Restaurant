@@ -1,0 +1,307 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media screen and (max-width: 575px) {
+    .header h1{
+        font-size: 36px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .header p{
+        font-size: 28px;
+        margin-bottom: 45px;
+    }
+    .navbar .logo{
+        float:none;
+        width: 100%;
+    }
+    .logo-img{
+        padding-left: 0px;
+        width: 139px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+    }
+    .navbar .nav .list-item{
+        padding-top:15px;
+    }
+    .navbar .nav .list-item a{
+        color:rgb(221, 221, 221);
+        font-size:15px;
+        margin-right:15px;
+    }
+    .about-img{
+        float: none;
+        width: 100%;
+    }
+    .about-content{
+        width:100%;
+        float:none;
+        text-align: center;
+        padding-top:100px;
+    }
+    .container{
+        width:100%;
+    }
+    .about-content .h2{
+        font-size:28px;
+        text-align: center;
+        padding-left: 0px;
+    
+    }
+    .about-content .h3{
+        font-size:25px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .about-content p{
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0px;
+        width:100%;
+    }
+    .about-content ul li{
+        width:90%;
+        margin-left: 0px;
+        margin: auto;
+        text-align: left;
+    }
+    .about-content ul li span{
+        margin-top: 25px;
+        padding-left: 10px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .review-content{
+        float:none;
+        width:100%;
+    }
+    .img-review{
+        float:none;
+        width:100%;
+    }
+    .reviewers .review-content h2{
+        font-size: 30px;
+        margin-bottom:10px;
+        text-align: center;
+    }
+    .reviewers .review-content h3{
+        font-size:28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .reviewers .review-content p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .reviewers .review-content ul li {
+        padding-bottom: 25px;
+        width: 100%;
+    }
+    .reviewers .review-content ul li i{
+        text-align: left;
+        font-size: 18px;
+    }
+    .reviewers .review-content ul li span{
+        font-size: 18px;
+    }
+    .cover{
+        background-image: url('../img/shutterstock_280369721\ \(1\).jpg');
+        padding: 250px 0px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:991) { }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width:1199) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .navbar .logo{
+        float:none;
+        width: 100%;
+    }
+    .logo-img{
+        padding-left: 0px;
+        width: 139px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+    }
+    .navbar .nav .list-item{
+        padding-top:15px;
+    }
+    .navbar .nav .list-item a{
+        font-size:15px;
+        margin-right:15px;
+    }
+    body{
+        height: 5000px;
+    }
+    
+    /*----------Header-----------*/
+    .header h1{
+        font-size: 76px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .header p{
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+    .btn{
+        padding:20px 33px;
+    }
+    .btn-learn{
+        margin-right: 4px;
+    }
+    .btn-book{
+        margin-left: 4px;
+    }
+    /*----------Navbar-----------*/
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar .logo{
+        padding-top: 19px;
+        float:left;
+        width: 10%;
+    }
+    .logo-img{
+        padding-left: 71px;
+        width:139px;
+        height:54px;
+    }
+    .navbar .nav{
+        float: right;
+        width: 42%;
+    }
+    .navbar .nav .list-item{
+        display: inline-block;
+        padding-top:32px;
+    }
+    .navbar .nav .list-item a{
+        font-size:20px;
+        margin-right:20px;
+        text-align:right;
+    }
+    /*----------About-----------*/
+    .about-img{
+        float: left;
+        width: 40%;
+    }
+    .about-img img{
+        width:100%;
+    }
+    .about-content{
+        width:60%;
+        float:right;
+        /* text-align: center; */
+        padding-top:100px;
+    }
+    .container{
+        width:90%;
+        margin:auto;
+    }
+    .about .container{
+        overflow:hidden;
+    }
+    /*anothor Solution
+    .clrfix{
+        clear:both;
+    }*/
+    .about-content .h2{
+        font-size:36px;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 115px;
+    
+    }
+    .about-content .h3{
+        font-size:28px;
+        margin-bottom: 20px;
+        text-align: left;
+        padding-left: 115px;
+    }
+    .about-content p{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 115px;
+        width:565px;
+    }
+    .about-content ul li{
+        width:50%;
+        margin-left: 115px;
+        text-align: left;
+    }
+    .about-content ul li i{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    .about-content ul li span{
+        margin-top: 25px;
+        padding-left: 10px;
+        font-size: 18px;
+        text-align: left;
+    }
+    /*----------Start Reviewers------------*/
+    .reviewers{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .review-content{
+        float:left;
+        width:53%;
+    }
+    .img-review{
+        float:right;
+        width:47%;
+    }
+    .reviewers .review-content h2{
+        font-size: 36px;
+        margin-bottom:10px;
+    }
+    .reviewers .review-content h3{
+        font-size:28px;
+        margin-bottom: 20px;
+    }
+    .reviewers .review-content p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: left;
+        width:90%;
+        margin-bottom: 20px;
+    }
+    .reviewers .review-content ul li {
+        padding-bottom: 25px;
+    }
+    .reviewers .review-content ul li i{
+        text-align: center;
+        font-size: 18px;
+        margin-right:10px;
+    }
+    .reviewers .review-content ul li span{
+        margin-bottom: 25px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .cover{
+        background-image: url('../img/shutterstock_280369721\ \(1\).jpg');
+        padding: 250px 0px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+ }
